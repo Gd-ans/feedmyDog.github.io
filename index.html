@@ -1,0 +1,2128 @@
+<!doctype html>
+<html lang="en-US">
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>FeedMyDogz</title>
+
+    <style type="text/css">
+        @font-face {
+            font-family: 'Changa';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/changa/v11/2-c79JNi2YuVOUcOarRPgnNGooxCZ62xcjnj8g.ttf) format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'Changa';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/changa/v11/2-c79JNi2YuVOUcOarRPgnNGooxCZ5-xcjnj8g.ttf) format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'Changa';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/changa/v11/2-c79JNi2YuVOUcOarRPgnNGooxCZ3O2cjnj8g.ttf) format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'Changa';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/changa/v11/2-c79JNi2YuVOUcOarRPgnNGooxCZ0q2cjnj8g.ttf) format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'Karla';
+            font-style: italic;
+            font-weight: 200;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/karla/v15/qkBKXvYC6trAT7RQNNK2EG7SIwPWMNnCV3lGb7Y.ttf) format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'Karla';
+            font-style: italic;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/karla/v15/qkBKXvYC6trAT7RQNNK2EG7SIwPWMNkcV3lGb7Y.ttf) format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'Karla';
+            font-style: italic;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/karla/v15/qkBKXvYC6trAT7RQNNK2EG7SIwPWMNlCV3lGb7Y.ttf) format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'Karla';
+            font-style: italic;
+            font-weight: 500;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/karla/v15/qkBKXvYC6trAT7RQNNK2EG7SIwPWMNlwV3lGb7Y.ttf) format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'Karla';
+            font-style: italic;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/karla/v15/qkBKXvYC6trAT7RQNNK2EG7SIwPWMNmcUHlGb7Y.ttf) format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'Karla';
+            font-style: italic;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/karla/v15/qkBKXvYC6trAT7RQNNK2EG7SIwPWMNmlUHlGb7Y.ttf) format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'Karla';
+            font-style: italic;
+            font-weight: 800;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/karla/v15/qkBKXvYC6trAT7RQNNK2EG7SIwPWMNnCUHlGb7Y.ttf) format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'Karla';
+            font-style: normal;
+            font-weight: 200;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/karla/v15/qkBIXvYC6trAT55ZBi1ueQVIjQTDeJqaHUlP.ttf) format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'Karla';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/karla/v15/qkBIXvYC6trAT55ZBi1ueQVIjQTDppqaHUlP.ttf) format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'Karla';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/karla/v15/qkBIXvYC6trAT55ZBi1ueQVIjQTD-JqaHUlP.ttf) format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'Karla';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/karla/v15/qkBIXvYC6trAT55ZBi1ueQVIjQTDypqaHUlP.ttf) format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'Karla';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/karla/v15/qkBIXvYC6trAT55ZBi1ueQVIjQTDJp2aHUlP.ttf) format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'Karla';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/karla/v15/qkBIXvYC6trAT55ZBi1ueQVIjQTDH52aHUlP.ttf) format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'Karla';
+            font-style: normal;
+            font-weight: 800;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/karla/v15/qkBIXvYC6trAT55ZBi1ueQVIjQTDeJ2aHUlP.ttf) format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'Roboto';
+            font-style: italic;
+            font-weight: 100;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v27/KFOiCnqEu92Fr1Mu51QrEz4dKg.ttf) format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'Roboto';
+            font-style: italic;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v27/KFOjCnqEu92Fr1Mu51TjASc0CsE.ttf) format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'Roboto';
+            font-style: italic;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v27/KFOkCnqEu92Fr1Mu51xGIzc.ttf) format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'Roboto';
+            font-style: italic;
+            font-weight: 500;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v27/KFOjCnqEu92Fr1Mu51S7ACc0CsE.ttf) format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'Roboto';
+            font-style: italic;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v27/KFOjCnqEu92Fr1Mu51TzBic0CsE.ttf) format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'Roboto';
+            font-style: italic;
+            font-weight: 900;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v27/KFOjCnqEu92Fr1Mu51TLBCc0CsE.ttf) format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 100;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v27/KFOkCnqEu92Fr1MmgVxGIzc.ttf) format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fChc9.ttf) format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu7GxP.ttf) format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fChc9.ttf) format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfChc9.ttf) format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 900;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmYUtfChc9.ttf) format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'Roboto Slab';
+            font-style: normal;
+            font-weight: 100;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/robotoslab/v13/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojIWmYWRm.ttf) format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'Roboto Slab';
+            font-style: normal;
+            font-weight: 200;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/robotoslab/v13/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoDISmYWRm.ttf) format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'Roboto Slab';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/robotoslab/v13/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjo0oSmYWRm.ttf) format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'Roboto Slab';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/robotoslab/v13/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmYWRm.ttf) format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'Roboto Slab';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/robotoslab/v13/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjovoSmYWRm.ttf) format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'Roboto Slab';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/robotoslab/v13/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoUoOmYWRm.ttf) format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'Roboto Slab';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/robotoslab/v13/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoa4OmYWRm.ttf) format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'Roboto Slab';
+            font-style: normal;
+            font-weight: 800;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/robotoslab/v13/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoDIOmYWRm.ttf) format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'Roboto Slab';
+            font-style: normal;
+            font-weight: 900;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/robotoslab/v13/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoJYOmYWRm.ttf) format('truetype');
+        }
+    </style>
+    <!-- Head CSS Start -->
+    <link rel="icon" type="image/png" href="assets/img/fav.png" />
+    <link rel="stylesheet" href="assets/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" id="siteground-optimizer-combined-css-c6a134c1b5fe6dfeee22c1ee71d0bab5" href="assets/css/siteground-optimizer-combined-css.css" media="all" />
+    <style id='yith-wcwl-main-inline-css' type='text/css'>
+        .yith-wcwl-share li a {
+            color: #FFFFFF;
+        }
+        
+        .yith-wcwl-share li a:hover {
+            color: #FFFFFF;
+        }
+        
+        .yith-wcwl-share a.facebook {
+            background: #39599E;
+            background-color: #39599E;
+        }
+        
+        .yith-wcwl-share a.facebook:hover {
+            background: #39599E;
+            background-color: #39599E;
+        }
+        
+        .yith-wcwl-share a.twitter {
+            background: #45AFE2;
+            background-color: #45AFE2;
+        }
+        
+        .yith-wcwl-share a.twitter:hover {
+            background: #39599E;
+            background-color: #39599E;
+        }
+        
+        .yith-wcwl-share a.pinterest {
+            background: #AB2E31;
+            background-color: #AB2E31;
+        }
+        
+        .yith-wcwl-share a.pinterest:hover {
+            background: #39599E;
+            background-color: #39599E;
+        }
+        
+        .yith-wcwl-share a.email {
+            background: #FBB102;
+            background-color: #FBB102;
+        }
+        
+        .yith-wcwl-share a.email:hover {
+            background: #39599E;
+            background-color: #39599E;
+        }
+        
+        .yith-wcwl-share a.whatsapp {
+            background: #00A901;
+            background-color: #00A901;
+        }
+        
+        .yith-wcwl-share a.whatsapp:hover {
+            background: #39599E;
+            background-color: #39599E;
+        }
+    </style>
+    <link rel='stylesheet' id='woocommerce-smallscreen-css' href='assets/css/woocommerce-smallscreen.min.css' type='text/css' media='only screen and (max-width: 768px)' />
+    <link rel='stylesheet' href='assets/css/custom.css' type='text/css' />
+    <style id='pethund-theme-inline-css' type='text/css'>
+        @media screen and(max-width:991px) {}
+        
+        @media screen and(min-width:992px) {
+            .content-row {
+                margin-left: -30px
+            }
+            .content-row {
+                margin-right: -30px
+            }
+            .content-row #primary,
+            .content-row #secondary {
+                padding-left: 30px !important
+            }
+            .content-row #primary,
+            .content-row #secondary {
+                padding-right: 30px !important
+            }
+            .content-row #primary.content-has-sidebar .site-main {
+                margin: 0 !important
+            }
+        }
+    </style>
+
+    <style type="text/css" id="wp-custom-css">
+        .cms-image-gallery .grid-item-inner img {
+            width: 100%;
+        }
+        
+        #colophon .elementor-grid-item .elementor-social-icon {
+            margin: 0 5px !important;
+        }
+    </style>
+
+
+    <style id="cms_theme_options-dynamic-css" title="dynamic-css" class="redux-options-output">
+        .primary-menu>li>a,
+        body .primary-menu .sub-menu li a {
+            font-display: swap;
+        }
+        
+        body #pagetitle .page-title-inner {
+            background-image: url('../demo.7iquid.com/pethund/wp-content/uploads/2020/06/ptt_default.jpg');
+        }
+        
+        .woocommerce #content,
+        .woocommerce-page #content {
+            padding-top: 150px;
+            padding-bottom: 105px;
+        }
+        
+        a {
+            color: inherit;
+        }
+        
+        a:hover {
+            color: #f15e42;
+        }
+        
+        a:active {
+            color: #f15e42;
+        }
+        
+        body {
+            font-display: swap;
+        }
+        
+        #page.site h1,
+        #page.site .h1,
+        #page.site .text-heading {
+            font-display: swap;
+        }
+        
+        #page.site h2,
+        #page.site .h2 {
+            font-display: swap;
+        }
+        
+        #page.site h3,
+        #page.site .h3 {
+            font-display: swap;
+        }
+        
+        #page.site h4,
+        #page.site .h4 {
+            font-display: swap;
+        }
+        
+        #page.site h5,
+        #page.site .h5 {
+            font-display: swap;
+        }
+        
+        #page.site h6,
+        #page.site .h6 {
+            font-display: swap;
+        }
+    </style>
+
+    <style id="cms-page-dynamic-css" data-type="redux-output-css">
+        #content{padding-top:0px;padding-bottom:45px;}
+    </style>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-206616244-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-206616244-1');
+    </script>
+
+
+
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            '../connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '3121174508204669');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=3121174508204669&amp;ev=PageView&amp;noscript=1"
+/></noscript>
+    <!-- End Facebook Pixel Code -->
+
+    <meta name="facebook-domain-verification" content="559ttkagiepqtxydffci12698zldzg" />
+    <link rel="stylesheet" href="../cdn.jsdelivr.net/npm/%40fortawesome/fontawesome-free%405.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <script src="../kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../pro.fontawesome.com/releases/v5.2.0/css/all.css">
+    <link rel="stylesheet" href="../static.fontawesome.com/css/fontawesome-app.css">
+    <!-- Head CSS End -->
+
+
+    <!-- Head JS Start -->
+    <script type='text/javascript' src='assets/js/jquery.min.js' id='jquery-core-js'></script>
+    <script type='text/javascript' src='assets/js/jquery-migrate.min.js' id='jquery-migrate-js'></script>
+    <script defer type='text/javascript' src='assets/js/lcb-main-js.min.js' id='lcb-main-js-js'></script>
+    <script defer type='text/javascript' src='assets/js/rbtools.min.js' id='tp-tools-js'></script>
+    <script defer type='text/javascript' src='assets/js/rs6.min.js' id='revmin-js'></script>
+    <script defer type='text/javascript' src='assets/js/flatpickr.min.js' id='ppress-flatpickr-js'></script>
+    <script defer type='text/javascript' src='assets/js/select2.min.js' id='ppress-select2-js'></script>
+
+
+    <script type="text/javascript">
+        function setREVStartSize(e) {
+            //window.requestAnimationFrame(function() { 
+            window.RSIW = window.RSIW === undefined ? window.innerWidth : window.RSIW;
+            window.RSIH = window.RSIH === undefined ? window.innerHeight : window.RSIH;
+            try {
+                var pw = document.getElementById(e.c).parentNode.offsetWidth,
+                    newh;
+                pw = pw === 0 || isNaN(pw) ? window.RSIW : pw;
+                e.tabw = e.tabw === undefined ? 0 : parseInt(e.tabw);
+                e.thumbw = e.thumbw === undefined ? 0 : parseInt(e.thumbw);
+                e.tabh = e.tabh === undefined ? 0 : parseInt(e.tabh);
+                e.thumbh = e.thumbh === undefined ? 0 : parseInt(e.thumbh);
+                e.tabhide = e.tabhide === undefined ? 0 : parseInt(e.tabhide);
+                e.thumbhide = e.thumbhide === undefined ? 0 : parseInt(e.thumbhide);
+                e.mh = e.mh === undefined || e.mh == "" || e.mh === "auto" ? 0 : parseInt(e.mh, 0);
+                if (e.layout === "fullscreen" || e.l === "fullscreen")
+                    newh = Math.max(e.mh, window.RSIH);
+                else {
+                    e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+                    for (var i in e.rl)
+                        if (e.gw[i] === undefined || e.gw[i] === 0) e.gw[i] = e.gw[i - 1];
+                    e.gh = e.el === undefined || e.el === "" || (Array.isArray(e.el) && e.el.length == 0) ? e.gh : e.el;
+                    e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+                    for (var i in e.rl)
+                        if (e.gh[i] === undefined || e.gh[i] === 0) e.gh[i] = e.gh[i - 1];
+                    var nl = new Array(e.rl.length),
+                        ix = 0,
+                        sl;
+                    e.tabw = e.tabhide >= pw ? 0 : e.tabw;
+                    e.thumbw = e.thumbhide >= pw ? 0 : e.thumbw;
+                    e.tabh = e.tabhide >= pw ? 0 : e.tabh;
+                    e.thumbh = e.thumbhide >= pw ? 0 : e.thumbh;
+                    for (var i in e.rl) nl[i] = e.rl[i] < window.RSIW ? 0 : e.rl[i];
+                    sl = nl[0];
+                    for (var i in nl)
+                        if (sl > nl[i] && nl[i] > 0) {
+                            sl = nl[i];
+                            ix = i;
+                        }
+                    var m = pw > (e.gw[ix] + e.tabw + e.thumbw) ? 1 : (pw - (e.tabw + e.thumbw)) / (e.gw[ix]);
+                    newh = (e.gh[ix] * m) + (e.tabh + e.thumbh);
+                }
+                if (window.rs_init_css === undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));
+                document.getElementById(e.c).height = newh + "px";
+                window.rs_init_css.innerHTML += "#" + e.c + "_wrapper { height: " + newh + "px }";
+            } catch (e) {
+                console.log("Failure at Presize of Slider:" + e)
+            }
+            //});
+        };
+    </script>
+    <!-- Head JS End -->
+
+</head>
+
+<body class="home page-template-default page page-id-22 theme-pethund woocommerce-no-js redux-page header-sticky elementor-default elementor-kit-2941 elementor-page elementor-page-22">
+
+    <div id="page" class="site">
+
+
+
+        <!---------------------- Header Start ----------------------->
+        <div id="cms-loadding" class="cms-loader default">
+            <div class="circle-loader">
+
+
+                <img src="assets/img/dog-load.gif" style="transform: rotate(
+268deg);">
+
+            </div>
+        </div>
+
+        <header id="masthead" class="site-header">
+            <div id="site-header-wrap" class="header-layout2 header-transparent fixed-height is-sticky">
+                <div class="header-top">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <div class="header-top-inner">
+                                    <div class="header-top-left font-smooth">
+                                        <div class="top-left-content">
+
+                                            <div class="ct-item ct-email"> <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></span>                                                <a href="mailto:help@lorem.com">help@lorem.com</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                    <div class="mrq">
+
+
+                                        <div class="marquee">
+                                            <div>
+                                                <span><a  onclick="('#','popup','width=600,height=600'); return false;"><h3>Donate on <img src="assets/img/milaap.png" alt="Donate for FDM" style="width:111px;height:34px;"></h3></a></span>
+                                                <span><a  onclick="('#','popup','width=600,height=600'); return false;"><h3>Donate on <img src="assets/img/milaap.png" alt="Donate for FDM" style="width:111px;height:34px;"></h3></a></span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="header-top-right">
+                                        <!--<span>We are social</span>-->
+                                        <div class="header-top-social">
+                                            <a class="fb" title="Facebook" href="https://www.facebook.com/" target="_balnk">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook">
+													<path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+												</svg>
+                                            </a>
+                                            <a class="twt" title="Twitter" href="https://twitter.com/" target="_balnk">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter">
+													<path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+												</svg>
+                                            </a>
+                                            <a class="insta" title="Instagram" href="https://www.instagram.com/" target="_balnk">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram">
+													<rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+													<path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+													<line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+												</svg>
+                                            </a>
+
+
+                                            <a class="ytb" title="Youtube" href="https://www.youtube.com/" target="_balnk">
+                                                <svg viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet" width="32" height="32">
+          <path d="M422.6 193.6c-5.3-45.3-23.3-51.6-59-54 -50.8-3.5-164.3-3.5-215.1 0 -35.7 2.4-53.7 8.7-59 54 -4 33.6-4 91.1 0 124.8 5.3 45.3 23.3 51.6 59 54 50.9 3.5 164.3 3.5 215.1 0 35.7-2.4 53.7-8.7 59-54C426.6 284.8 426.6 227.3 422.6 193.6zM222.2 303.4v-94.6l90.7 47.3L222.2 303.4z"></path>
+        </svg>
+                                            </a>
+
+                                            <a class="ytb" title="Youtube" href="https://in.pinterest.com/" target="_balnk">
+                                                <svg viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet" width="32" height="32">
+          <path d="M266.6 76.5c-100.2 0-150.7 71.8-150.7 131.7 0 36.3 13.7 68.5 43.2 80.6 4.8 2 9.2 0.1 10.6-5.3 1-3.7 3.3-13 4.3-16.9 1.4-5.3 0.9-7.1-3-11.8 -8.5-10-13.9-23-13.9-41.3 0-53.3 39.9-101 103.8-101 56.6 0 87.7 34.6 87.7 80.8 0 60.8-26.9 112.1-66.8 112.1 -22.1 0-38.6-18.2-33.3-40.6 6.3-26.7 18.6-55.5 18.6-74.8 0-17.3-9.3-31.7-28.4-31.7 -22.5 0-40.7 23.3-40.7 54.6 0 19.9 6.7 33.4 6.7 33.4s-23.1 97.8-27.1 114.9c-8.1 34.1-1.2 75.9-0.6 80.1 0.3 2.5 3.6 3.1 5 1.2 2.1-2.7 28.9-35.9 38.1-69 2.6-9.4 14.8-58 14.8-58 7.3 14 28.7 26.3 51.5 26.3 67.8 0 113.8-61.8 113.8-144.5C400.1 134.7 347.1 76.5 266.6 76.5z"></path>
+        </svg>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="site-header" class="site-header-main">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <div class="column-flex">
+                                    <div class="site-branding">
+                                        <a class="logo-light" href="index-2.html" title="Feed My Dogz" rel="home">
+                                            <img src="assets/img/logo.png" alt="Feed My Dogz" />
+                                        </a>
+                                        <a class="logo-dark" href="index-2.html" title="Feed My Dogz" rel="home">
+                                            <img src="assets/img/logo.png" alt="Feed My Dogz" />
+                                        </a>
+                                        <a class="logo-mobile" href="index-2.html" title="Feed My Dogz" rel="home">
+                                            <img src="assets/img/logo.png" alt="Feed My Dogz" />
+                                        </a>
+                                    </div>
+                                    <div class="site-navigation">
+                                        <div class="site-navigation-inner">
+                                            <div class="site-navigation-main-content">
+                                                <nav class="main-navigation">
+                                                    <ul id="mastmenu" class="primary-menu clearfix">
+
+                                                        <li id="menu-item-1822" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="#abt">What we do</a>
+                                                        </li>
+
+                                                        <li id="menu-item-42" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="#ms_vs">Mission / Vision</a>
+
+                                                        </li>
+
+
+
+                                                        <li id="menu-item-45" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="#Gallery">Gallery</a>
+                                                        </li>
+
+                                                        <li id="menu-item-45" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="#Blogs">Blogs</a>
+                                                        </li>
+
+                                                    </ul>
+                                                </nav>
+                                                <div class="site-menu-right-button"> <a onclick="('#','popup','width=600,height=600'); return false;" class="menu-right-item btn btn-tertiary" style="color:#fff;"> Donate Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="main-menu-mobile"> <span class="btn-nav-mobile open-menu"> <span></span> </span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="modal fade" id="shop-now" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title w-100 text-center" id="exampleModalLongTitle">Pay only for what you buy</h2>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                    </div>
+                    <div class="modal-body">
+
+                        <p>Online Shopping is trendy and convenient now these days, and shopping for Goods is more popular than ever, and there have never been so many ways to do it. So why not do it with a cause and make a purchase that combines the good
+                            feelings of pampering your pet while you help the homeless paws.</p>
+
+                        <p>All products under our shopping cart are customized and cruel free which you and your pets will love; while you pamper your pet with the things they love you also get to help our helpless paws on the street. They look for your
+                            love too.</p>
+                        <p>We at FeedMyDogz pledge to contribute 100% of the profits of all these products to the FeedMyDogz trust. We at FeedMyDogz are committed and love to take care of the strays at our grace for the necessities of life. We are motivated
+                            to provide them with healthy food and water in the most hygienic way possible. We urge you to join the cause by shopping for your pet, and your treatment of your loving pet will be a blessing to the less fortunate ones; we
+                            assure you we will convey your love and care to them.</p>
+
+                        <div class="shop-btn-wrapper my-2 text-center">
+                            <a href="shop-now.html" class="btn btn-primary">
+				Shop Now
+			</a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!---------------------- Header End ----------------------->
+
+
+
+
+
+        <div id="content" class="site-content">
+            <div class="content-inner">
+                <div class="container content-container">
+                    <div class="row content-row">
+                        <div id="primary" class="content-area content-full-width col-12">
+                            <main id="main" class="site-main">
+                                <article id="post-22" class="post-22 page type-page status-publish hentry">
+                                    <div class="entry-content clearfix">
+                                        <div data-elementor-type="wp-page" data-elementor-id="22" class="elementor elementor-22" data-elementor-settings="[]">
+                                            <div class="elementor-inner">
+                                                <div class="elementor-section-wrap">
+
+
+
+                                                    <!-- START Slider Home Main REVOLUTION SLIDER 6.2.18 -->
+                                                    <section class="elementor-section elementor-top-section elementor-element elementor-element-c6e9f24 elementor-section-stretched elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="c6e9f24" data-element_type="section"
+                                                        data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+                                                        <div class="elementor-container elementor-column-gap-no ">
+                                                            <div class="elementor-row">
+                                                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4c1a391" data-id="4c1a391" data-element_type="column">
+                                                                    <div class="elementor-column-wrap elementor-element-populated">
+                                                                        <div class="elementor-widget-wrap">
+                                                                            <div class="elementor-element elementor-element-27b2489 elementor-widget elementor-widget-slider_revolution" data-id="27b2489" data-element_type="widget" data-widget_type="slider_revolution.default">
+                                                                                <div class="elementor-widget-container">
+                                                                                    <div class="wp-block-themepunch-revslider">
+
+                                                                                        <p class="rs-p-wp-fix"></p>
+                                                                                        <rs-module-wrap id="rev_slider_6_1_wrapper" data-source="gallery" style="background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
+                                                                                            <rs-module id="rev_slider_6_1" style="" data-version="6.2.18">
+                                                                                                <rs-slides>
+                                                                                                    <rs-slide data-key="rs-14" data-title="Slide" data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:0;">
+                                                                                                        <img src="assets/img/street-dogs1.jpg" title="h5_slider_2" width="1920" height="1071" data-panzoom="d:10000;ss:108%;se:100%;" class="rev-slidebg" data-no-retina>
+                                                                                                        <!--
+ -->
+                                                                                                        <rs-group id="slider-6-slide-14-layer-0" data-type="group" data-rsp_ch="on" data-xy="xo:0,20px,20px,20px;y:b,b,m,m;yo:210px,210px,0,0;" data-text="w:normal;" data-dim="w:100%;h:335px;" data-frame_0="o:1;" data-frame_999="o:0;st:w;sR:8700;sA:9000;" style="z-index:13;">
+                                                                                                            <!--
+ -->
+                                                                                                            <rs-layer id="slider-6-slide-14-layer-2" data-type="text" data-rsp_ch="on" data-xy="yo:48px;" data-text="w:normal;s:66,66,66,61;l:66;fw:700;" data-dim="w:526px,526px,526px,446px;" data-frame_0="y:50;" data-frame_1="st:1460;sp:800;sR:1460;" data-frame_999="o:0;st:w;sR:6740;"
+                                                                                                                style="z-index:11;font-family:Changa;">Create a global community for Stray Dogs welfare.
+                                                                                                                <a onclick="('#','popup','width=600,height=600'); return false;" class="btn btn-primary"><img class="dnt" src="assets/img/donate.png"></a>
+                                                                                                                <!-- Button trigger modal -->
+
+                                                                                                            </rs-layer>
+                                                                                                            <!--  -->
+                                                                                                            <!-- <rs-layer id="slider-6-slide-14-layer-3" data-type="text" data-rsp_ch="on" data-text="w:normal;s:18;l:23;fw:700;" data-dim="w:333px;" data-frame_0="x:-50;" data-frame_1="st:860;sp:800;sR:860;" data-frame_999="o:0;st:w;sR:7340;" style="z-index:12;font-family:Karla;">Pet Care Services</rs-layer> -->
+                                                                                                            <!--  --><a id="slider-6-slide-14-layer-4" class="rs-layer rev-btn" onclick="('#','popup','width=600,height=600'); return false;" data-type="button" data-bsh="c:rgba(241,94,66,0.5);v:4px;b:13px;"
+                                                                                                                data-rsp_ch="on" data-xy="y:b;" data-text="w:normal;s:18;l:50;fw:700;" data-dim="minh:0px,none,none,none;" data-padding="r:33;l:33;" data-border="bor:3px,3px,3px,3px;"
+                                                                                                                data-frame_1="e:power4.inOut;st:2150;sp:1000;sR:2150;" data-frame_1_sfx="se:blocktoright;" data-frame_999="o:0;st:w;sR:5850;" data-frame_hover="c:#fff;bgc:#98cb46;bor:3px,3px,3px,3px;e:default;"
+                                                                                                                style="z-index:10;background-color:#f15e42;font-family:Karla;text-transform:uppercase;">Donate Now </a>
+                                                                                                            <!--  -->
+                                                                                                            <!--<a id="slider-6-slide-14-layer-6" class="rs-layer" href="tel: +91-9289014442" target="_blank" rel="nofollow noopener" data-type="text" data-rsp_ch="on" data-xy="xo:200px;y:b;yo:12px;" data-text="w:normal;s:18;l:23;fw:700;" data-dim="w:158px;" data-frame_0="y:bottom;sX:2;sY:2;rZ:70deg;" data-frame_1="st:3000;sp:1000;sR:3000;" data-frame_999="o:0;st:w;sR:5000;" style="z-index:9;font-family:Karla;"> +91-9289014442</a>-->
+                                                                                                            <!--
+ -->
+                                                                                                        </rs-group>
+                                                                                                        <!--
+-->
+                                                                                                    </rs-slide>
+                                                                                                    <rs-slide data-key="rs-13" data-title="Slide" data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:0;">
+                                                                                                        <img src="assets/img/gallery/N0.jpg" title="h5_slider_1" width="1920" height="1069" data-panzoom="d:10000;ss:100;se:108%;" class="rev-slidebg" data-no-retina>
+                                                                                                        <!--
+ -->
+                                                                                                        <rs-group id="slider-6-slide-13-layer-0" data-type="group" data-rsp_ch="on" data-xy="xo:0,20px,20px,20px;y:b,b,m,m;yo:210px,210px,0,0;" data-text="w:normal;" data-dim="w:100%;h:335px;" data-frame_0="o:1;" data-frame_999="o:0;st:w;sR:8700;sA:9000;" style="z-index:12;">
+                                                                                                            <!--
+ -->
+                                                                                                            <rs-layer id="slider-6-slide-13-layer-2" data-type="text" data-rsp_ch="on" data-xy="yo:48px;" data-text="w:normal;s:66,66,66,61;l:66;fw:700;" data-dim="w:526px,526px,526px,446px;" data-frame_0="y:50;" data-frame_1="st:1460;sp:800;sR:1460;" data-frame_999="o:0;st:w;sR:6740;"
+                                                                                                                style="z-index:10;font-family:Changa;">A shout out to all the Animal lovers.
+                                                                                                                <a onclick="('#','popup','width=600,height=600'); return false;" class="btn btn-primary"><img class="dnt" src="assets/img/donate.png"></a>
+
+                                                                                                            </rs-layer>
+                                                                                                            <!--  -->
+                                                                                                            <!-- <rs-layer id="slider-6-slide-13-layer-3" data-type="text" data-rsp_ch="on" data-text="w:normal;s:18;l:23;fw:700;" data-dim="w:333px;" data-frame_0="x:-50;" data-frame_1="st:860;sp:800;sR:860;" data-frame_999="o:0;st:w;sR:7340;" style="z-index:11;font-family:Karla;">Pet Care Services</rs-layer> -->
+                                                                                                            <!--  --><a id="slider-6-slide-13-layer-4" class="rs-layer rev-btn" onclick="('#','popup','width=600,height=600'); return false;" data-type="button" data-bsh="c:rgba(241,94,66,0.5);v:4px;b:13px;"
+                                                                                                                data-rsp_ch="on" data-xy="y:b;" data-text="w:normal;s:18;l:50;fw:700;" data-dim="minh:0px,none,none,none;" data-padding="r:33;l:33;" data-border="bor:3px,3px,3px,3px;"
+                                                                                                                data-frame_1="e:power4.inOut;st:2150;sp:1000;sR:2150;" data-frame_1_sfx="se:blocktoright;" data-frame_999="o:0;st:w;sR:5850;" data-frame_hover="c:#fff;bgc:#98cb46;bor:3px,3px,3px,3px;e:default;"
+                                                                                                                style="z-index:9;background-color:#f15e42;font-family:Karla;text-transform:uppercase;">Donate Now </a>
+                                                                                                            <!--  -->
+                                                                                                            <!--<a id="slider-6-slide-13-layer-6" class="rs-layer" href="tel: +91-9289014442" target="_blank" rel="nofollow noopener" data-type="text" data-rsp_ch="on" data-xy="xo:200px;y:b;yo:12px;" data-text="w:normal;s:18;l:23;fw:700;" data-dim="w:158px;" data-frame_0="y:bottom;sX:2;sY:2;rZ:70deg;" data-frame_1="st:3000;sp:1000;sR:3000;" data-frame_999="o:0;st:w;sR:5000;" style="z-index:8;font-family:Karla;"> +91-9289014442</a>-->
+                                                                                                            <!--
+-->
+                                                                                                        </rs-group>
+                                                                                                        <!--
+-->
+                                                                                                    </rs-slide>
+                                                                                                </rs-slides>
+                                                                                            </rs-module>
+                                                                                            <script type="text/javascript">
+                                                                                                setREVStartSize({
+                                                                                                    c: 'rev_slider_6_1',
+                                                                                                    rl: [1920, 1230, 778, 480],
+                                                                                                    el: [890, 720, 650, 650],
+                                                                                                    gw: [1170, 1024, 778, 480],
+                                                                                                    gh: [890, 720, 650, 650],
+                                                                                                    type: 'standard',
+                                                                                                    justify: '',
+                                                                                                    layout: 'fullwidth',
+                                                                                                    mh: "0"
+                                                                                                });
+                                                                                                var revapi6,
+                                                                                                    tpj;
+                                                                                                jQuery(function() {
+                                                                                                    tpj = jQuery;
+                                                                                                    revapi6 = tpj("#rev_slider_6_1");
+                                                                                                    if (revapi6 == undefined || revapi6.revolution == undefined) {
+                                                                                                        revslider_showDoubleJqueryError("rev_slider_6_1");
+                                                                                                    } else {
+                                                                                                        revapi6.revolution({
+                                                                                                            sliderLayout: "fullwidth",
+                                                                                                            visibilityLevels: "1920,1230,778,480",
+                                                                                                            gridwidth: "1170,1024,778,480",
+                                                                                                            gridheight: "890,720,650,650",
+                                                                                                            perspective: 600,
+                                                                                                            perspectiveType: "global",
+                                                                                                            editorheight: "890,720,650,650",
+                                                                                                            responsiveLevels: "1920,1230,778,480",
+                                                                                                            progressBar: {
+                                                                                                                color: "#f15e42",
+                                                                                                                size: "4px"
+                                                                                                            },
+                                                                                                            navigation: {
+                                                                                                                onHoverStop: false
+                                                                                                            },
+                                                                                                            fallbacks: {
+                                                                                                                allowHTML5AutoPlayOnAndroid: true
+                                                                                                            },
+                                                                                                        });
+                                                                                                    }
+                                                                                                });
+                                                                                            </script>
+                                                                                        </rs-module-wrap>
+
+
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+
+
+
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                    <!-- END REVOLUTION SLIDER -->
+
+
+
+
+                                                    <section id="abt" class="elementor-section elementor-top-section elementor-element elementor-element-50d7d8dd elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="50d7d8dd" data-element_type="section">
+                                                        <div class="elementor-container elementor-column-gap-default ">
+                                                            <div class="elementor-row">
+                                                                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-740dba8a" data-id="740dba8a" data-element_type="column">
+                                                                    <div class="elementor-column-wrap elementor-element-populated">
+                                                                        <div class="elementor-widget-wrap">
+                                                                            <div class="elementor-element elementor-element-100c2449 elementor-invisible elementor-widget elementor-widget-image" data-id="100c2449" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;_animation_delay&quot;:100}"
+                                                                                data-widget_type="image.default">
+                                                                                <div class="elementor-widget-container">
+                                                                                    <div class="elementor-image">
+                                                                                        <img width="693" height="658" src="assets/img/ab.png" class="elementor-animation-wobble-to-bottom-right attachment-full size-full" alt="" srcset="assets/img/ab.png 693w, assets/img/ab.png 600w, assets/img/ab.png 300w" sizes="(max-width: 693px) 100vw, 693px"
+                                                                                        />
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5839f645" data-id="5839f645" data-element_type="column">
+                                                                    <div class="elementor-column-wrap elementor-element-populated">
+                                                                        <div class="elementor-widget-wrap">
+                                                                            <div class="elementor-element elementor-element-3155589e elementor-widget elementor-widget-cms_heading" data-id="3155589e" data-element_type="widget" data-widget_type="cms_heading.default">
+                                                                                <div class="elementor-widget-container">
+                                                                                    <div class="cms-heading layout1">
+                                                                                        <h2 class="custom-heading"> <span> <span class="h-before">What </span> we do </span>
+                                                                                        </h2>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="elementor-element elementor-element-7f94f041 elementor-widget elementor-widget-text-editor" data-id="7f94f041" data-element_type="widget" data-widget_type="text-editor.default">
+                                                                                <div class="elementor-widget-container">
+                                                                                    <div class="elementor-text-editor elementor-clearfix">
+
+                                                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non sint eius totam, exercitationem possimus eaque alias harum numquam voluptatum veritatis sed repudiandae
+                                                                                            sapiente vitae at rem corrupti ratione beatae vel culpa odio quas? Suscipit itaque eveniet iusto corporis odit nostrum architecto veritatis repudiandae ratione.
+                                                                                            Perferendis sapiente maiores beatae? Dolorum suscipit quibusdam magni enim ratione autem, accusamus similique in, delectus sapiente eos culpa dicta neque velit
+                                                                                            quisquam sequi non quasi soluta deserunt explicabo qui. Minima sint ipsa esse. Cum eveniet nam necessitatibus dignissimos soluta veniam voluptas nisi assumenda
+                                                                                            eos tempora! Doloribus beatae reprehenderit laborum aspernatur iste quia error officia aperiam veniam?
+                                                                                        </p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="elementor-element elementor-element-5f37a458 elementor-align-left elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="5f37a458" data-element_type="widget" data-widget_type="icon-list.default">
+                                                                                <div class="elementor-widget-container">
+
+                                                                                    <p style="margin: 0px;"><b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b> </p>
+                                                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore veritatis quia maiores! Modi, iure ratione facere vero ipsum provident sunt cum, culpa recusandae eum
+                                                                                        doloribus aspernatur quasi ab debitis excepturi quo. Enim sequi sapiente omnis fugit asperiores repudiandae officiis porro amet temporibus, blanditiis, veritatis expedita
+                                                                                        incidunt minus nulla molestiae ex.</p>
+
+                                                                                </div>
+                                                                            </div>
+                                                                            <!-- <div class="elementor-element elementor-element-55e2a086 elementor-invisible elementor-widget elementor-widget-cms_button" data-id="55e2a086" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:100}" data-widget_type="cms_button.default">
+																				<div class="elementor-widget-container">
+																					<div class="cms-button-wrapper cms-button layout1">
+																						<a href="#" target="_blank" rel="nofollow" class="btn btn-secondary"> <span class="cms-button-icon cms-align-icon-"> </span>  <span class="cms-button-text">Read More</span> 
+																						</a>
+																					</div>
+																				</div>
+																			</div> -->
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+
+
+
+                                                    <section class="elementor-section elementor-top-section elementor-element elementor-element-2f89110a elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2f89110a" data-element_type="section"
+                                                        data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+                                                        <div class="elementor-container elementor-column-gap-default ">
+                                                            <div class="elementor-row">
+                                                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4a779f61" data-id="4a779f61" data-element_type="column">
+                                                                    <div class="elementor-column-wrap elementor-element-populated">
+                                                                        <div class="elementor-widget-wrap">
+                                                                            <section id="ms_vs" class="elementor-section elementor-inner-section elementor-element elementor-element-8d2c418 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8d2c418" data-element_type="section">
+                                                                                <div class="elementor-container elementor-column-gap-default ">
+                                                                                    <div class="elementor-row">
+                                                                                        <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-3a4a1263 elementor-invisible" data-id="3a4a1263" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation_delay&quot;:100,&quot;animation&quot;:&quot;slideInLeft&quot;}">
+                                                                                            <div class="elementor-column-wrap elementor-element-populated">
+                                                                                                <div class="elementor-background-overlay"></div>
+                                                                                                <div class="elementor-widget-wrap">
+                                                                                                    <div class="elementor-element elementor-element-d4ad85c elementor-widget elementor-widget-spacer" data-id="d4ad85c" data-element_type="widget" data-widget_type="spacer.default">
+                                                                                                        <div class="elementor-widget-container">
+                                                                                                            <div class="elementor-spacer">
+                                                                                                                <div class="elementor-spacer-inner"></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="elementor-element elementor-element-23b98e9a shadow-text elementor-view-default elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="23b98e9a" data-element_type="widget" data-widget_type="icon-box.default">
+                                                                                                        <div class="elementor-widget-container">
+                                                                                                            <div class="elementor-icon-box-wrapper">
+                                                                                                                <div class="elementor-icon-box-icon"> <span class="elementor-icon elementor-animation-bounce-in"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -32 512.00011 512"><path d="m342.382812 239.351562c-23.039062-35.941406-62.277343-57.402343-104.964843-57.402343s-81.925781 21.460937-104.960938 57.402343l-55.515625 86.605469c-9.210937 14.367188-13.460937 30.96875-12.292968 47.996094 1.167968 17.03125 7.648437 32.890625 18.738281 45.875 11.097656 12.972656 25.761719 21.839844 42.40625 25.644531 16.644531 3.804688 33.707031 2.179688 49.339843-4.691406l1.046876-.464844c39.335937-16.945312 84.285156-16.789062 123.519531.464844 10.121093 4.449219 20.84375 6.699219 31.664062 6.699219 5.882813 0 11.800781-.667969 17.664063-2.003907 16.644531-3.800781 31.308594-12.667968 42.410156-25.644531 11.09375-12.972656 17.578125-28.835937 18.75-45.871093 1.171875-17.035157-3.078125-33.632813-12.289062-48.007813zm0 0"></path><path d="m91.894531 239.238281c16.515625-6.34375 29.0625-19.652343 35.328125-37.476562 5.964844-16.960938 5.476563-36.109375-1.378906-53.921875-6.859375-17.800782-19.335938-32.332032-35.132812-40.921875-16.59375-9.019531-34.824219-10.488281-51.3125-4.132813-33.171876 12.753906-48.394532 53.746094-33.929688 91.398438 11.554688 29.96875 38.503906 48.886718 65.75 48.886718 6.957031 0 13.933594-1.234374 20.675781-3.832031zm0 0"></path><path d="m199.613281 171.386719c41.46875 0 75.207031-38.4375 75.207031-85.683594 0-47.257813-33.738281-85.703125-75.207031-85.703125-41.464843 0-75.199219 38.445312-75.199219 85.703125 0 47.246094 33.734376 85.683594 75.199219 85.683594zm0 0"></path><path d="m329.496094 192.4375h.003906c6.378906 2.117188 12.886719 3.128906 19.367188 3.128906 30.242187 0 59.714843-22.011718 70.960937-55.839844 6.476563-19.472656 6.050781-40.0625-1.199219-57.972656-7.585937-18.75-21.644531-32.359375-39.589844-38.324218-17.949218-5.964844-37.359374-3.476563-54.660156 7-16.527344 10.007812-29.191406 26.246093-35.660156 45.71875-13.652344 41.078124 4.640625 84.273437 40.777344 96.289062zm0 0"></path><path d="m487.875 182.4375-.011719-.011719c-28.597656-21.125-71.367187-11.96875-95.347656 20.421875-23.957031 32.40625-20.210937 75.972656 8.34375 97.113282 10.414063 7.714843 22.71875 11.402343 35.3125 11.402343 21.949219 0 44.785156-11.203125 60.050781-31.804687 23.953125-32.40625 20.210938-75.972656-8.347656-97.121094zm0 0"></path></svg> </span>
+                                                                                                                </div>
+                                                                                                                <div class="elementor-icon-box-content">
+                                                                                                                    <h2 class="elementor-icon-box-title"> <span>Our Mission </span></h2>
+                                                                                                                    <p class="elementor-icon-box-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, placeat? Sint laborum corrupti similique incidunt pariatur voluptas,
+                                                                                                                        ducimus necessitatibus accusamus ipsa, aliquid alias. <a href="#Mission">(Read More)</a></p>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-d0edd5a elementor-invisible" data-id="d0edd5a" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;slideInUp&quot;}">
+                                                                                            <div class="elementor-column-wrap elementor-element-populated">
+                                                                                                <div class="elementor-background-overlay"></div>
+                                                                                                <div class="elementor-widget-wrap">
+                                                                                                    <div class="elementor-element elementor-element-e089c52 elementor-widget elementor-widget-spacer" data-id="e089c52" data-element_type="widget" data-widget_type="spacer.default">
+                                                                                                        <div class="elementor-widget-container">
+                                                                                                            <div class="elementor-spacer">
+                                                                                                                <div class="elementor-spacer-inner"></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="elementor-element elementor-element-7a6b8c9 shadow-text elementor-view-default elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="7a6b8c9" data-element_type="widget" data-widget_type="icon-box.default">
+                                                                                                        <div class="elementor-widget-container">
+                                                                                                            <div class="elementor-icon-box-wrapper">
+                                                                                                                <div class="elementor-icon-box-icon"> <span class="elementor-icon elementor-animation-bounce-in"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -32 512.00011 512"><path d="m342.382812 239.351562c-23.039062-35.941406-62.277343-57.402343-104.964843-57.402343s-81.925781 21.460937-104.960938 57.402343l-55.515625 86.605469c-9.210937 14.367188-13.460937 30.96875-12.292968 47.996094 1.167968 17.03125 7.648437 32.890625 18.738281 45.875 11.097656 12.972656 25.761719 21.839844 42.40625 25.644531 16.644531 3.804688 33.707031 2.179688 49.339843-4.691406l1.046876-.464844c39.335937-16.945312 84.285156-16.789062 123.519531.464844 10.121093 4.449219 20.84375 6.699219 31.664062 6.699219 5.882813 0 11.800781-.667969 17.664063-2.003907 16.644531-3.800781 31.308594-12.667968 42.410156-25.644531 11.09375-12.972656 17.578125-28.835937 18.75-45.871093 1.171875-17.035157-3.078125-33.632813-12.289062-48.007813zm0 0"></path><path d="m91.894531 239.238281c16.515625-6.34375 29.0625-19.652343 35.328125-37.476562 5.964844-16.960938 5.476563-36.109375-1.378906-53.921875-6.859375-17.800782-19.335938-32.332032-35.132812-40.921875-16.59375-9.019531-34.824219-10.488281-51.3125-4.132813-33.171876 12.753906-48.394532 53.746094-33.929688 91.398438 11.554688 29.96875 38.503906 48.886718 65.75 48.886718 6.957031 0 13.933594-1.234374 20.675781-3.832031zm0 0"></path><path d="m199.613281 171.386719c41.46875 0 75.207031-38.4375 75.207031-85.683594 0-47.257813-33.738281-85.703125-75.207031-85.703125-41.464843 0-75.199219 38.445312-75.199219 85.703125 0 47.246094 33.734376 85.683594 75.199219 85.683594zm0 0"></path><path d="m329.496094 192.4375h.003906c6.378906 2.117188 12.886719 3.128906 19.367188 3.128906 30.242187 0 59.714843-22.011718 70.960937-55.839844 6.476563-19.472656 6.050781-40.0625-1.199219-57.972656-7.585937-18.75-21.644531-32.359375-39.589844-38.324218-17.949218-5.964844-37.359374-3.476563-54.660156 7-16.527344 10.007812-29.191406 26.246093-35.660156 45.71875-13.652344 41.078124 4.640625 84.273437 40.777344 96.289062zm0 0"></path><path d="m487.875 182.4375-.011719-.011719c-28.597656-21.125-71.367187-11.96875-95.347656 20.421875-23.957031 32.40625-20.210937 75.972656 8.34375 97.113282 10.414063 7.714843 22.71875 11.402343 35.3125 11.402343 21.949219 0 44.785156-11.203125 60.050781-31.804687 23.953125-32.40625 20.210938-75.972656-8.347656-97.121094zm0 0"></path></svg> </span>
+                                                                                                                </div>
+                                                                                                                <div class="elementor-icon-box-content">
+                                                                                                                    <h2 class="elementor-icon-box-title"> <span>Our Vision </span></h2>
+                                                                                                                    <p class="elementor-icon-box-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, dolorum consequatur! Velit repellendus suscipit a quos fuga repellat
+                                                                                                                        quibusdam, dignissimos libero earum possimus.<br>
+                                                                                                                        <a href="#Vision">(Read More)</a>
+                                                                                                                    </p>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-7707d77 elementor-invisible" data-id="7707d77" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation_delay&quot;:100,&quot;animation&quot;:&quot;slideInRight&quot;}">
+                                                                                            <div class="elementor-column-wrap elementor-element-populated">
+                                                                                                <div class="elementor-background-overlay"></div>
+                                                                                                <div class="elementor-widget-wrap">
+                                                                                                    <div class="elementor-element elementor-element-ff49956 elementor-widget elementor-widget-spacer" data-id="ff49956" data-element_type="widget" data-widget_type="spacer.default">
+                                                                                                        <div class="elementor-widget-container">
+                                                                                                            <div class="elementor-spacer">
+                                                                                                                <div class="elementor-spacer-inner"></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="elementor-element elementor-element-e34f40d shadow-text elementor-view-default elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="e34f40d" data-element_type="widget" data-widget_type="icon-box.default">
+                                                                                                        <div class="elementor-widget-container">
+                                                                                                            <div class="elementor-icon-box-wrapper">
+                                                                                                                <div class="elementor-icon-box-icon"> <span class="elementor-icon elementor-animation-bounce-in"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -32 512.00011 512"><path d="m342.382812 239.351562c-23.039062-35.941406-62.277343-57.402343-104.964843-57.402343s-81.925781 21.460937-104.960938 57.402343l-55.515625 86.605469c-9.210937 14.367188-13.460937 30.96875-12.292968 47.996094 1.167968 17.03125 7.648437 32.890625 18.738281 45.875 11.097656 12.972656 25.761719 21.839844 42.40625 25.644531 16.644531 3.804688 33.707031 2.179688 49.339843-4.691406l1.046876-.464844c39.335937-16.945312 84.285156-16.789062 123.519531.464844 10.121093 4.449219 20.84375 6.699219 31.664062 6.699219 5.882813 0 11.800781-.667969 17.664063-2.003907 16.644531-3.800781 31.308594-12.667968 42.410156-25.644531 11.09375-12.972656 17.578125-28.835937 18.75-45.871093 1.171875-17.035157-3.078125-33.632813-12.289062-48.007813zm0 0"></path><path d="m91.894531 239.238281c16.515625-6.34375 29.0625-19.652343 35.328125-37.476562 5.964844-16.960938 5.476563-36.109375-1.378906-53.921875-6.859375-17.800782-19.335938-32.332032-35.132812-40.921875-16.59375-9.019531-34.824219-10.488281-51.3125-4.132813-33.171876 12.753906-48.394532 53.746094-33.929688 91.398438 11.554688 29.96875 38.503906 48.886718 65.75 48.886718 6.957031 0 13.933594-1.234374 20.675781-3.832031zm0 0"></path><path d="m199.613281 171.386719c41.46875 0 75.207031-38.4375 75.207031-85.683594 0-47.257813-33.738281-85.703125-75.207031-85.703125-41.464843 0-75.199219 38.445312-75.199219 85.703125 0 47.246094 33.734376 85.683594 75.199219 85.683594zm0 0"></path><path d="m329.496094 192.4375h.003906c6.378906 2.117188 12.886719 3.128906 19.367188 3.128906 30.242187 0 59.714843-22.011718 70.960937-55.839844 6.476563-19.472656 6.050781-40.0625-1.199219-57.972656-7.585937-18.75-21.644531-32.359375-39.589844-38.324218-17.949218-5.964844-37.359374-3.476563-54.660156 7-16.527344 10.007812-29.191406 26.246093-35.660156 45.71875-13.652344 41.078124 4.640625 84.273437 40.777344 96.289062zm0 0"></path><path d="m487.875 182.4375-.011719-.011719c-28.597656-21.125-71.367187-11.96875-95.347656 20.421875-23.957031 32.40625-20.210937 75.972656 8.34375 97.113282 10.414063 7.714843 22.71875 11.402343 35.3125 11.402343 21.949219 0 44.785156-11.203125 60.050781-31.804687 23.953125-32.40625 20.210938-75.972656-8.347656-97.121094zm0 0"></path></svg> </span>
+                                                                                                                </div>
+                                                                                                                <div class="elementor-icon-box-content">
+                                                                                                                    <h2 class="elementor-icon-box-title"> <span>Our Passion </span></h2>
+                                                                                                                    <p class="elementor-icon-box-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error vel nemo excepturi expedita quos asperiores possimus voluptatibus ea iste,
+                                                                                                                        molestias sequi delectus maiores.</p>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </section>
+                                                                            <section class="elementor-section elementor-inner-section elementor-element elementor-element-3c381e9f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3c381e9f" data-element_type="section">
+                                                                                <div class="elementor-container elementor-column-gap-default ">
+                                                                                    <div class="elementor-row">
+                                                                                        <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-18284bed" data-id="18284bed" data-element_type="column">
+                                                                                            <div class="elementor-column-wrap elementor-element-populated">
+                                                                                                <div class="elementor-widget-wrap">
+                                                                                                    <div class="elementor-element elementor-element-21ab96bb elementor-widget elementor-widget-text-editor" data-id="21ab96bb" data-element_type="widget" data-widget_type="text-editor.default">
+                                                                                                        <div class="elementor-widget-container">
+                                                                                                            <div class="elementor-text-editor elementor-clearfix">
+                                                                                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio deserunt vitae debitis sequi aliquam, laborum necessitatibus corrupti est nisi
+                                                                                                                    adipisci modi iure at.</p>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </section>
+                                                                            <section class="elementor-section elementor-inner-section elementor-element elementor-element-ce30dd6 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ce30dd6" data-element_type="section">
+                                                                                <div class="elementor-container elementor-column-gap-extended ">
+                                                                                    <div class="elementor-row">
+                                                                                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-4a43c28a" data-id="4a43c28a" data-element_type="column">
+                                                                                            <div class="elementor-column-wrap elementor-element-populated">
+                                                                                                <div class="elementor-widget-wrap">
+                                                                                                    <div class="elementor-element elementor-element-3a3a6e6c elementor-invisible elementor-widget elementor-widget-cms_button" data-id="3a3a6e6c" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;flash&quot;,&quot;_animation_delay&quot;:100}"
+                                                                                                        data-widget_type="cms_button.default">
+                                                                                                        <div class="elementor-widget-container">
+                                                                                                            <div class="cms-button-wrapper cms-button layout1">
+                                                                                                                <a onclick="('#','popup','width=600,height=600'); return false;" class="btn btn-outline white"> <span class="cms-button-icon cms-align-icon-"> </span> <span class="cms-button-text">Donate Now</span>
+                                                                                                                </a>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-4c743a8c" data-id="4c743a8c" data-element_type="column">
+                                                                                            <div class="elementor-column-wrap elementor-element-populated">
+                                                                                                <div class="elementor-widget-wrap">
+                                                                                                    <div class="elementor-element elementor-element-463b9d73 elementor-widget elementor-widget-text-editor" data-id="463b9d73" data-element_type="widget" data-widget_type="text-editor.default">
+                                                                                                        <div class="elementor-widget-container">
+                                                                                                            <div class="elementor-text-editor elementor-clearfix">
+                                                                                                                <!--<p style="margin-bottom:0px;"><a href="tel: +91-9289014442"> +91-9289014442</a>-->
+                                                                                                                <!--</p>-->
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </section>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+
+
+
+                                                    <section id="Mission" class="elementor-section elementor-top-section elementor-element elementor-element-40b1105 elementor-section-stretched elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="40b1105"
+                                                        data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+                                                        <div class="elementor-container elementor-column-gap-default ">
+                                                            <div class="elementor-row">
+                                                                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-49cf5ea" data-id="49cf5ea" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                                    <div class="elementor-column-wrap elementor-element-populated">
+                                                                        <div class="elementor-background-overlay"></div>
+                                                                        <div class="elementor-widget-wrap">
+                                                                            <div class="elementor-element elementor-element-d368846 elementor-widget elementor-widget-spacer" data-id="d368846" data-element_type="widget" data-widget_type="spacer.default">
+                                                                                <div class="elementor-widget-container">
+                                                                                    <div class="elementor-spacer">
+                                                                                        <div class="elementor-spacer-inner"></div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <section class="elementor-section elementor-inner-section elementor-element elementor-element-073b70e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="073b70e" data-element_type="section">
+                                                                                <div class="elementor-container elementor-column-gap-no ">
+                                                                                    <div class="elementor-row">
+                                                                                        <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-4d59f19" data-id="4d59f19" data-element_type="column">
+                                                                                            <div class="elementor-column-wrap elementor-element-populated">
+                                                                                                <div class="elementor-widget-wrap">
+                                                                                                    <div class="elementor-element elementor-element-185dd1a elementor-widget__width-auto elementor-invisible elementor-widget elementor-widget-cms_video_popup" data-id="185dd1a" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;slideInUp&quot;}"
+                                                                                                        data-widget_type="cms_video_popup.default">
+                                                                                                        <div class="elementor-widget-container">
+                                                                                                            <div class="cms-video-popup">
+                                                                                                                <div class="content-inner">
+                                                                                                                    <a class="video-play-button video-default" href="youtube.com">
+                                                                                                                        <svg viewBox="0 0 512 512">
+                                        <g>
+                                    <path d="M431.36,80.64A248,248,0,1,0,80.64,431.36,248,248,0,1,0,431.36,80.64ZM420.05,420.05A232,232,0,0,1,91.95,91.95a232,232,0,0,1,328.1,328.1Z" />
+																																<path d="M176,464.7a7.982,7.982,0,0,1-2.963-.571A224.077,224.077,0,0,1,32,256a8,8,0,0,1,16,0A208.073,208.073,0,0,0,178.965,449.271,8,8,0,0,1,176,464.7Z" />
+																																<path d="M216.009,476.305a8.072,8.072,0,0,1-1.482-.138c-5.557-1.041-11.141-2.309-16.595-3.77a8,8,0,1,1,4.136-15.455c5.063,1.355,10.245,2.533,15.405,3.5a8,8,0,0,1-1.464,15.865Z" />
+																															</g>
+																															<g>
+																																<path d="M208.538,352a8,8,0,0,1-8-8V168a8,8,0,0,1,12.131-6.851l145.924,88a8,8,0,0,1,0,13.7l-145.924,88A8,8,0,0,1,208.538,352Zm8-169.833V329.833L338.971,256Z" />
+																															</g>
+																														</svg>
+                                                                                                                    </a>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </section>
+                                                                            <div class="elementor-element elementor-element-5463ded elementor-widget elementor-widget-spacer" data-id="5463ded" data-element_type="widget" data-widget_type="spacer.default">
+                                                                                <div class="elementor-widget-container">
+                                                                                    <div class="elementor-spacer">
+                                                                                        <div class="elementor-spacer-inner"></div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-19a8142 col-offset-right" data-id="19a8142" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                                    <div class="elementor-column-wrap elementor-element-populated">
+                                                                        <div class="elementor-widget-wrap">
+                                                                            <div class="elementor-element elementor-element-7996a182 elementor-widget elementor-widget-cms_heading" data-id="7996a182" data-element_type="widget" data-widget_type="cms_heading.default">
+                                                                                <div class="elementor-widget-container">
+                                                                                    <div class="cms-heading layout1">
+                                                                                        <!-- <div class="custom-subheading font-smooth">Get to know us
+																							<div class="heading-icon rotate-on icon-dark icon-"></div>
+																						</div> -->
+                                                                                        <h2 class="custom-heading"> <span> <span class="h-before">Our </span> Mission</span>
+                                                                                        </h2>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div Vision class="elementor-element elementor-element-2ab1e29c elementor-widget elementor-widget-text-editor" data-id="2ab1e29c" data-element_type="widget" data-widget_type="text-editor.default">
+                                                                                <div class="elementor-widget-container">
+                                                                                    <div class="elementor-text-editor elementor-clearfix">
+                                                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur a magnam reiciendis maiores eius quo obcaecati nam, repellat aut impedit sunt ipsam repellendus ea
+                                                                                            veniam adipisci, cum recusandae! Perspiciatis, porro? </p>
+
+                                                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, impedit ratione saepe nam facere nostrum debitis ipsum incidunt distinctio at fugiat aspernatur
+                                                                                            vel iusto inventore est eaque suscipit laudantium laboriosam! </p>
+                                                                                        <p>Since our services solely rely on help and donation. Our mission is to make people aware of this noble cause and intensify the campaign to assist more and more dogs
+                                                                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde inventore voluptate tempore quasi praesentium aspernatur magnam. Rerum nobis laborum pariatur aliquam
+                                                                                            aspernatur? Totam? </p>
+                                                                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi iusto iure exercitationem, nesciunt praesentium sequi possimus tenetur illo qui quod, reiciendis, neque
+                                                                                            ducimus? </p>
+
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+
+                                                    <section id="Vision" class="sec-vs elementor-section elementor-top-section elementor-element elementor-element-2eb15456 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2eb15456"
+                                                        data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+                                                        <div class="elementor-container elementor-column-gap-default ">
+                                                            <div class="elementor-row">
+                                                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-66069dc9" data-id="66069dc9" data-element_type="column">
+                                                                    <div class="elementor-column-wrap elementor-element-populated">
+                                                                        <div class="elementor-widget-wrap">
+                                                                            <div class="elementor-element elementor-element-59a8363b elementor-widget elementor-widget-cms_heading" data-id="59a8363b" data-element_type="widget" data-widget_type="cms_heading.default">
+                                                                                <div class="elementor-widget-container">
+                                                                                    <div class="cms-heading layout1">
+
+                                                                                        <h2 class="custom-heading"> <span> <span class="h-before">Our</span> Vision </span>
+                                                                                        </h2>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+
+
+                                                                            <div class="elementor-element elementor-element-2ad067fb elementor-widget elementor-widget-text-editor" data-id="2ad067fb" data-element_type="widget" data-widget_type="text-editor.default">
+                                                                                <div class="elementor-widget-container">
+                                                                                    <div class="elementor-text-editor elementor-clearfix">
+                                                                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore earum modi nostrum ex qui, accusantium quibusdam voluptatem quod est itaque exercitationem ullam
+                                                                                            odit, at, harum enim assumenda ut eligendi consequatur!.</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+
+
+
+                                                    <section id="Gallery" class="elementor-section elementor-top-section elementor-element elementor-element-e09083a elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e09083a" data-element_type="section"
+                                                        data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+                                                        <div class="elementor-container elementor-column-gap-default ">
+                                                            <div class="elementor-row">
+                                                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-48e0c09d" data-id="48e0c09d" data-element_type="column">
+                                                                    <div class="elementor-column-wrap elementor-element-populated">
+                                                                        <div class="elementor-widget-wrap">
+                                                                            <div class="elementor-element elementor-element-4e6591bf elementor-widget elementor-widget-spacer" data-id="4e6591bf" data-element_type="widget" data-widget_type="spacer.default">
+                                                                                <div class="elementor-widget-container">
+                                                                                    <div class="elementor-spacer">
+                                                                                        <div class="elementor-spacer-inner"></div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="elementor-element elementor-element-52b2e2d elementor-widget elementor-widget-cms_heading" data-id="52b2e2d" data-element_type="widget" data-widget_type="cms_heading.default">
+                                                                                <div class="elementor-widget-container">
+                                                                                    <div class="cms-heading layout1">
+                                                                                        <!-- <div class="custom-subheading font-smooth">Image Tour
+																							<div class="heading-icon rotate-on icon-default icon-center"></div>
+																						</div> -->
+                                                                                        <h2 class="custom-heading"> <span> <span class="h-before">Our</span> Gallery </span>
+                                                                                        </h2>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="elementor-element elementor-element-491ca130 elementor-widget elementor-widget-spacer" data-id="491ca130" data-element_type="widget" data-widget_type="spacer.default">
+                                                                                <div class="elementor-widget-container">
+                                                                                    <div class="elementor-spacer">
+                                                                                        <div class="elementor-spacer-inner"></div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+
+
+                                                                            <div class="elementor-element elementor-element-2329fc04 elementor-widget elementor-widget-cms_image_gallery" data-id="2329fc04" data-element_type="widget" data-widget_type="cms_image_gallery.default">
+                                                                                <div class="elementor-widget-container">
+                                                                                    <div id="cms_image_gallery-2329fc04" class="cms-grid cms-image-gallery images-light-box clearfix" data-layout="masonry">
+                                                                                        <div class="cms-grid-inner cms-grid-masonry row" data-gutter="15">
+                                                                                            <div class="grid-sizer col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12"></div>
+                                                                                            <div class="grid-item col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                                                                                                <div class="grid-item-inner">
+                                                                                                    <img width="370" height="472" src="assets/img/gallery/N0.jpg" class="attachment-full" alt="image gallery" />
+                                                                                                    <div class="up-icon">
+                                                                                                        <a class="light-box" data-elementor-open-lightbox="no" href="assets/img/gallery/N0.jpg" title="img_gallery1"> <i class="fas fac-search"></i>
+                                                                                                        </a>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="image-caption"></div>
+                                                                                            </div>
+
+                                                                                            <div class="grid-item col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                                                                                                <div class="grid-item-inner">
+                                                                                                    <img width="370" height="229" src="assets/img/gallery/N3.jpg" class="attachment-full" alt="image gallery" />
+                                                                                                    <div class="up-icon">
+                                                                                                        <a class="light-box" data-elementor-open-lightbox="no" href="assets/img/gallery/N3.jpg" title="img_gallery2"> <i class="fas fac-search"></i>
+                                                                                                        </a>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="image-caption"></div>
+                                                                                            </div>
+                                                                                            <div class="grid-item col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                                                                                                <div class="grid-item-inner">
+                                                                                                    <img width="370" height="472" src="assets/img/gallery/N1.jpg" class="attachment-full" alt="image gallery" />
+                                                                                                    <div class="up-icon">
+                                                                                                        <a class="light-box" data-elementor-open-lightbox="no" href="assets/img/gallery/N1.jpg" title="img_gallery3"> <i class="fas fac-search"></i>
+                                                                                                        </a>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="image-caption"></div>
+                                                                                            </div>
+                                                                                            <div class="grid-item col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                                                                                                <div class="grid-item-inner">
+                                                                                                    <img width="370" height="472" src="assets/img/gallery/N6.jpg" class="attachment-full" alt="image gallery" />
+                                                                                                    <div class="up-icon">
+                                                                                                        <a class="light-box" data-elementor-open-lightbox="no" href="assets/img/gallery/N6.jpg" title="img_gallery6"> <i class="fas fac-search"></i>
+                                                                                                        </a>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="image-caption"></div>
+                                                                                            </div>
+                                                                                            <div class="grid-item col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                                                                                                <div class="grid-item-inner">
+                                                                                                    <img width="370" height="229" src="assets/img/gallery/N4.jpg" class="attachment-full" alt="image gallery" />
+                                                                                                    <div class="up-icon">
+                                                                                                        <a class="light-box" data-elementor-open-lightbox="no" href="assets/img/gallery/N4.jpg" title="img_gallery5"> <i class="fas fac-search"></i>
+                                                                                                        </a>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="image-caption"></div>
+                                                                                            </div>
+                                                                                            <div class="grid-item col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                                                                                                <div class="grid-item-inner">
+                                                                                                    <img width="370" height="229" src="assets/img/gallery/N5.jpg" class="attachment-full" alt="image gallery" />
+                                                                                                    <div class="up-icon">
+                                                                                                        <a class="light-box" data-elementor-open-lightbox="no" href="assets/img/gallery/N5.jpg" title="img_gallery7"> <i class="fas fac-search"></i>
+                                                                                                        </a>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="image-caption"></div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="elementor-element elementor-element-4a30510d elementor-widget elementor-widget-spacer" data-id="4a30510d" data-element_type="widget" data-widget_type="spacer.default">
+                                                                                <div class="elementor-widget-container">
+                                                                                    <div class="elementor-spacer">
+                                                                                        <div class="elementor-spacer-inner"></div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+
+
+                                                    <section id="Blogs" class=" elementor-section elementor-top-section elementor-element elementor-element-4b1335d3 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4b1335d3"
+                                                        data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+                                                        <div class="elementor-container elementor-column-gap-default ">
+                                                            <div class="elementor-row">
+                                                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5ea206c2" data-id="5ea206c2" data-element_type="column">
+                                                                    <div class="elementor-column-wrap elementor-element-populated">
+                                                                        <div class="elementor-widget-wrap">
+
+                                                                            <div class="elementor-element elementor-element-47879fa4 elementor-widget elementor-widget-cms_heading" data-id="47879fa4" data-element_type="widget" data-widget_type="cms_heading.default">
+                                                                                <div class="elementor-widget-container">
+                                                                                    <div class="cms-heading layout1">
+                                                                                        <!-- <div class="custom-subheading font-smooth">Recent Blog Post
+																							<div class="heading-icon rotate-on icon-default icon-center"></div>
+																						</div> -->
+                                                                                        <h2 class="custom-heading"> <span> <span class="h-before">Latest </span> Blogs</span>
+                                                                                        </h2>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="elementor-element elementor-element-3eac648e elementor-widget elementor-widget-cms_post_carousel" data-id="3eac648e" data-element_type="widget" data-widget_type="cms_post_carousel.default">
+                                                                                <div class="elementor-widget-container">
+                                                                                    <div id="cms_post_carousel-3eac648e" class="cms-post-carousel layout2 cms-slick-slider arrow-out">
+                                                                                        <div class="cms-post-carousel-inner">
+                                                                                            <div class="cms-slick-carousel" data-arrows="true" data-dots="false" data-pauseOnHover="true" data-autoplay="" data-autoplaySpeed="5000" data-infinite="" data-speed="500" data-slidesToShow="3" data-slidesToShowTablet="1" data-slidesToShowMobile="1" data-slidesToScroll="1"
+                                                                                                data-slidesToScrollTablet="1" data-slidesToScrollMobile="1">
+                                                                                                <div class="carousel-item slick-slide">
+                                                                                                    <div class="carousel-item-inner">
+                                                                                                        <div class="entry-featured scale-hover-x">
+                                                                                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#blog2">
+                                                                                                                <img class="" src="assets/img/gallery/N1.jpg" width="309" height="190" alt="blog_1" title="blog_1" />
+                                                                                                            </a>
+                                                                                                        </div>
+                                                                                                        <div class="entry-body">
+                                                                                                            <div class="entry-body-inner">
+                                                                                                                <div class="post-meta">
+                                                                                                                    <div class="post-date">
+                                                                                                                        <div class="date-day">17</div>
+                                                                                                                        <div class="date-month">Aug</div>
+                                                                                                                    </div>
+
+                                                                                                                </div>
+                                                                                                                <h3 class="entry-title"> <a href="javascript:void(0)" data-toggle="modal" data-target="#blog2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h3>
+                                                                                                                <div class="entry-content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea accusamus quia quaerat temporibus aliquid aspernatur ratione voluptate quidem
+                                                                                                                    architecto ullam?</div>
+                                                                                                                <div class="action-buttons">
+                                                                                                                    <div class="entry-readmore">
+                                                                                                                        <!-- Button trigger modal -->
+                                                                                                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#blog2">
+ Read More
+</button>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="carousel-item slick-slide">
+                                                                                                    <div class="carousel-item-inner">
+                                                                                                        <div class="entry-featured scale-hover-x">
+                                                                                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#blog3">
+                                                                                                                <img class="" src="assets/img/gallery/N6.jpg" width="309" height="190" alt="blog_1" title="blog_1" />
+                                                                                                            </a>
+                                                                                                        </div>
+                                                                                                        <div class="entry-body">
+                                                                                                            <div class="entry-body-inner">
+                                                                                                                <div class="post-meta">
+                                                                                                                    <div class="post-date">
+                                                                                                                        <div class="date-day">09</div>
+                                                                                                                        <div class="date-month">Jun</div>
+                                                                                                                    </div>
+
+                                                                                                                </div>
+                                                                                                                <h3 class="entry-title"> <a href="javascript:void(0)" data-toggle="modal" data-target="#blog3">Lorem ipsum dolor sit amet.  </a></h3>
+                                                                                                                <div class="entry-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel unde sequi culpa odio eveniet accusantium aut ex ea, laudantium facilis asperiores
+                                                                                                                    ducimus eligendi quibusdam, odit, placeat minima! </div>
+                                                                                                                <div class="action-buttons">
+                                                                                                                    <div class="entry-readmore">
+                                                                                                                        <!-- Button trigger modal -->
+                                                                                                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#blog3">
+ Read More
+</button>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+
+
+                                                                                                <div class="carousel-item slick-slide">
+                                                                                                    <div class="carousel-item-inner">
+                                                                                                        <div class="entry-featured scale-hover-x">
+                                                                                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#blog4">
+                                                                                                                <img class="" src="assets/img/vs.jpg" width="309" height="190" alt="blog_1" title="blog_1" />
+                                                                                                            </a>
+                                                                                                        </div>
+                                                                                                        <div class="entry-body">
+                                                                                                            <div class="entry-body-inner">
+                                                                                                                <div class="post-meta">
+                                                                                                                    <div class="post-date">
+                                                                                                                        <div class="date-day">09</div>
+                                                                                                                        <div class="date-month">Jun</div>
+                                                                                                                    </div>
+
+                                                                                                                </div>
+                                                                                                                <h3 class="entry-title"> <a href="javascript:void(0)" data-toggle="modal" data-target="#blog4">Lorem ipsum dolor sit, amet consectetur adipisicing. </a></h3>
+                                                                                                                <div class="entry-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam vel quae, quia recusandae porro veritatis excepturi impedit rerum dolorum aperiam
+                                                                                                                    unde natus ea totam corrupti! Est, unde. </div>
+                                                                                                                <div class="action-buttons">
+                                                                                                                    <div class="entry-readmore">
+                                                                                                                        <!-- Button trigger modal -->
+                                                                                                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#blog4">
+ Read More
+</button>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+
+
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+
+
+
+
+
+
+
+
+
+
+
+                                                                            <!-- Blog 2 Popup -->
+                                                                            <div class="modal fade" id="blog2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                                                    <div class="modal-content p-3">
+                                                                                        <div class="modal-header">
+                                                                                            <h5 class="modal-title" id="exampleModalLongTitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur commodi tempore et ut rerum laborum s</h5>
+                                                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                                                                                        </div>
+                                                                                        <div class="modal-body">
+                                                                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptas fugit, vero voluptatibus molestias quos perferendis deleniti minima voluptatum nisi
+                                                                                                eligendi. Voluptas accusamus incidunt beatae est, quod vitae reiciendis similique adipisci sed dolor sequi temporibus. Necessitatibus corporis dolore illum
+                                                                                                dicta ratione, itaque asperiores suscipit exercitationem laudantium facere sapiente, amet aperiam assumenda quia nostrum iure? Laborum nobis voluptate numquam
+                                                                                                reprehenderit repellendus nisi, est doloremque aliquid fugiat deleniti consequatur porro corporis quo, unde aut tempore cum quisquam ullam minima ratione necessitatibus
+                                                                                                eaque commodi. Ea velit optio nemo possimus quod blanditiis, obcaecati corrupti earum facere illum enim rerum iusto sunt neque veniam sint?.<br>
+                                                                                                <br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam at recusandae, minus eos maiores dicta. Quis aperiam maiores voluptates sed sunt, cum
+                                                                                                molestiae ea at placeat, eos veritatis natus optio. Velit aliquam aut totam architecto et. Eaque doloremque earum molestias incidunt esse at nihil reiciendis
+                                                                                                amet explicabo quae minus animi modi doloribus perferendis culpa assumenda omnis vel provident, porro cumque ratione blanditiis non dicta laboriosam! Aperiam,
+                                                                                                ab atque. Quod a id nulla saepe maxime blanditiis accusamus, asperiores nostrum autem, quasi mollitia commodi temporibus quia unde dolor in iure ipsum excepturi
+                                                                                                recusandae error earum ex vel placeat. Pariatur dolore et sint veniam, illo facere odio? Earum saepe, possimus amet doloremque velit adipisci corporis unde,
+                                                                                                deleniti eius sed dolor nulla corrupti repellat rem similique nesciunt error quo dignissimos, doloribus magni incidunt recusandae. Eligendi hic distinctio
+                                                                                                voluptatem neque nobis ab laborum id quae suscipit sapiente, dolorum minus eius eveniet, incidunt officiis blanditiis veniam enim nulla laudantium quibusdam,
+                                                                                                exercitationem temporibus! Hic eos, architecto ab necessitatibus earum consequuntur. Cum nobis, blanditiis mollitia veniam ullam quaerat quibusdam possimus
+                                                                                                ipsa rerum animi nesciunt inventore illo exercitationem officiis unde quae. Culpa eos deserunt eveniet laboriosam quaerat asperiores, aliquam deleniti ducimus,
+                                                                                                omnis minus debitis repellat, itaque perferendis quis ratione?
+                                                                                            </p>
+                                                                                        </div>
+
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+
+
+
+
+                                                                            <!-- Blog 3 Popup -->
+                                                                            <div class="modal fade" id="blog3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                                                    <div class="modal-content p-3">
+                                                                                        <div class="modal-header">
+                                                                                            <h5 class="modal-title" id="exampleModalLongTitle">Lorem ipsum dolor sit amet consectetur.</h5>
+                                                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                                                                                        </div>
+                                                                                        <div class="modal-body">
+                                                                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, ad consequatur harum obcaecati officia eligendi eveniet minima totam exercitationem! Corrupti
+                                                                                                molestias quis libero fugit harum quidem, ut necessitatibus adipisci tempora numquam nulla quia sit illum pariatur saepe esse asperiores voluptas nostrum officiis.
+                                                                                                Dolores ad quam, pariatur nulla accusantium repudiandae libero esse atque doloremque, ullam iure fugit, repellat mollitia veniam cumque voluptatum delectus
+                                                                                                quos dicta quae. Excepturi reprehenderit odio dicta deleniti voluptatibus eligendi iure assumenda quis id ullam obcaecati unde consequatur quo sapiente libero
+                                                                                                nemo exercitationem, quam mollitia ipsa magnam. Tenetur incidunt harum explicabo earum consequatur deleniti reiciendis quo repellendus, quod fuga recusandae
+                                                                                                culpa, aut eos. Aspernatur consequatur tempore architecto vel fugiat blanditiis corporis voluptates, repudiandae nisi beatae quos provident ipsam dolorum in
+                                                                                                pariatur perspiciatis eaque dolorem voluptas. Eos quidem distinctio quis, nostrum assumenda provident voluptatem temporibus est sint natus odio, corporis ullam.
+                                                                                                Accusantium cupiditate fuga nam harum eos, reiciendis hic necessitatibus dolores quas inventore quod totam facilis iure doloremque veniam fugit expedita eligendi
+                                                                                                vitae possimus quia, aliquid ab cum debitis rem. Accusamus magni explicabo incidunt tenetur consequatur error iusto iure aperiam, optio quisquam reprehenderit?
+                                                                                                Aliquam corporis assumenda enim fuga a optio, numquam sint aspernatur ipsum obcaecati veniam doloremque nulla odio tempora suscipit impedit voluptate modi
+                                                                                                eveniet sed. Accusamus reiciendis voluptatum explicabo qui quaerat odit laboriosam, quibusdam soluta tempora voluptatem veniam blanditiis nisi quae beatae
+                                                                                                tempore? Necessitatibus, aperiam illo. Corrupti deleniti totam vel consequuntur inventore aut quia consequatur facere atque sit. Tempora at minus, in aut,
+                                                                                                quisquam obcaecati, assumenda iusto sequi debitis officiis excepturi cum! At consequatur corporis adipisci. Vel, minus corporis rem debitis optio tenetur officiis
+                                                                                                mollitia sint veritatis quos earum est nemo itaque voluptatum cumque sit sed facilis! Amet quis, tempore corporis, quae doloribus eum numquam perferendis placeat
+                                                                                                neque eaque officiis, omnis quos maiores dolorum tempora quo adipisci vero vitae deserunt! Quaerat iure dignissimos soluta sit impedit veritatis modi quod
+                                                                                                sint sequi expedita fugiat cum aliquam similique nostrum, corrupti ratione deleniti blanditiis exercitationem laborum, non dolorum quas. Sed expedita quisquam
+                                                                                                harum ipsa libero, labore repellendus asperiores id consequuntur ipsam nesciunt voluptates voluptatem? Facilis corporis assumenda tenetur mollitia cupiditate
+                                                                                                voluptatibus quae, repellat error eligendi odio nam labore vero doloremque? Sunt nemo ea perspiciatis unde. Et totam dicta, ipsum recusandae ab aut quisquam
+                                                                                                culpa eaque rem maxime aspernatur nobis? Dolorum eaque inventore asperiores veniam quos consectetur laborum deleniti nemo sit voluptatem non eveniet, impedit
+                                                                                                laboriosam quis excepturi aspernatur ea magnam temporibus expedita. Delectus voluptates laudantium dolorem sunt dicta explicabo laborum labore reprehenderit,
+                                                                                                nemo odio necessitatibus cum repellat doloribus repellendus iste officiis ab incidunt! Aliquid dolores assumenda rem suscipit atque nulla quam eum doloremque
+                                                                                                hic voluptatum, nemo aspernatur reiciendis dicta eveniet, voluptates quas voluptate sed mollitia saepe iusto? Laudantium accusamus quisquam vel harum. Voluptatem
+                                                                                                laborum deserunt neque atque quidem culpa perspiciatis quia totam beatae placeat, labore quis rerum dicta cumque explicabo eveniet dolore esse a. Aut in animi
+                                                                                                unde quibusdam assumenda laudantium. Excepturi inventore amet consequatur dolores fugiat accusantium officiis unde in quasi. Omnis atque ipsam tempore obcaecati
+                                                                                                eligendi deleniti, dolorum dolor?
+
+                                                                                            </p>
+
+                                                                                        </div>
+
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+
+
+
+
+                                                                            <!-- Blog 4 Popup -->
+                                                                            <div class="modal fade" id="blog4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                                                    <div class="modal-content p-3">
+                                                                                        <div class="modal-header">
+                                                                                            <h5 class="modal-title" id="exampleModalLongTitle">Lorem ipsum dolor sit, amet consectetur adipisicing. </h5>
+                                                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                                                                                        </div>
+                                                                                        <div class="modal-body">
+                                                                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ad est magni aliquam perspiciatis quas vitae facilis doloribus quo molestias velit illum?
+                                                                                                At repellendus, sit velit suscipit praesentium blanditiis aut labore ipsa aliquid quasi rerum earum, quaerat nulla veritatis perferendis. Dolorum nostrum tempora
+                                                                                                sed ipsa laudantium illum nobis! Dolorem totam modi numquam, porro quas et. Ex quae temporibus accusamus doloremque porro quod cupiditate atque cumque recusandae
+                                                                                                est facere sed, impedit eius magnam placeat voluptatibus veritatis laudantium, voluptatum aut facilis non quam accusantium culpa dignissimos. Explicabo aliquid,
+                                                                                                totam pariatur quidem sequi numquam culpa fugit amet commodi, facilis rem cumque dolorem debitis expedita, quia ut! Saepe corrupti, accusamus voluptate quas
+                                                                                                molestiae, impedit dolores vero rem sed fuga, repudiandae veritatis eum id velit quidem accusantium. Iusto, labore. Perferendis vitae incidunt repellat sunt
+                                                                                                doloremque voluptatem? Voluptatem cupiditate perspiciatis sed vero, laboriosam totam omnis ipsum minima, molestiae animi quam? Possimus porro aliquid, vel
+                                                                                                magni, itaque architecto dolor, soluta suscipit laudantium debitis ratione? Nisi eum doloribus eveniet incidunt aspernatur, aliquam autem. Animi nulla nobis
+                                                                                                aliquam iste officiis magni ratione, quibusdam repudiandae perspiciatis quod nemo exercitationem, beatae assumenda voluptas! Tenetur iste reprehenderit porro
+                                                                                                quam, dolore laboriosam aut aspernatur iure voluptate error voluptatem inventore ea quas cupiditate sit voluptas atque veritatis nesciunt explicabo iusto modi
+                                                                                                qui enim et. Et dolorum consectetur unde numquam perspiciatis reiciendis officiis, minima animi autem repellendus totam nostrum dolores hic aliquam. Illum,
+                                                                                                beatae perspiciatis. Praesentium ex accusamus culpa, commodi, dolore harum voluptatum enim non, labore ducimus distinctio dolorum velit ad impedit eos suscipit
+                                                                                                sequi itaque reiciendis dolorem quas a assumenda officiis repellat! Dolorem officiis ea enim tempore molestias nulla maiores eaque, numquam vitae minus cumque.
+                                                                                                Quasi exercitationem facilis eligendi officiis eum illo hic doloremque culpa commodi aspernatur fugiat magni, beatae impedit, mollitia voluptas non sint laboriosam
+                                                                                                perspiciatis quas, rem est veritatis. Placeat, sint nobis! Adipisci similique totam, eum distinctio eveniet culpa. Ab odio voluptatum labore? Odit labore,
+                                                                                                facere dolor a autem dignissimos nulla quidem ad velit nemo suscipit quibusdam iure distinctio recusandae minus sapiente fuga dolores quisquam aperiam quo
+                                                                                                id impedit ea sit! Aspernatur omnis natus libero, similique beatae ullam impedit voluptatem quos quam illum, cumque, pariatur exercitationem nemo doloremque.
+                                                                                                Iusto incidunt error repellendus repudiandae odio expedita ipsam vero vitae quas fugiat, nemo voluptatum quo praesentium natus voluptate blanditiis sint eveniet
+                                                                                                numquam deserunt explicabo officia aliquid pariatur dolorem? Earum cum quos totam debitis numquam veritatis, beatae quo tempora voluptatem molestias, veniam
+                                                                                                natus quis nihil!
+                                                                                            </p>
+
+                                                                                        </div>
+
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+
+
+
+                                                                            <div class="elementor-element elementor-element-633a89ab elementor-widget elementor-widget-spacer" data-id="633a89ab" data-element_type="widget" data-widget_type="spacer.default">
+                                                                                <div class="elementor-widget-container">
+                                                                                    <div class="elementor-spacer">
+                                                                                        <div class="elementor-spacer-inner"></div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- .entry-content -->
+                                </article>
+                                <!-- #post-22 -->
+                            </main>
+                            <!-- #main -->
+                        </div>
+                        <!-- #primary -->
+                    </div>
+                </div>
+            </div>
+            <!-- #content inner -->
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <!-- #content -->
+        <footer id="colophon" class="site-footer-custom">
+            <div class="footer-custom-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div data-elementor-type="wp-post" data-elementor-id="92" class="elementor elementor-92" data-elementor-settings="[]">
+                                <div class="elementor-inner">
+                                    <div class="elementor-section-wrap">
+                                        <section class="elementor-section elementor-top-section elementor-element elementor-element-bb180ae elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="bb180ae" data-element_type="section"
+                                            data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+                                            <div class="elementor-container elementor-column-gap-extended ">
+                                                <div class="elementor-row">
+                                                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1210c8b" data-id="1210c8b" data-element_type="column">
+                                                        <div class="elementor-column-wrap elementor-element-populated">
+                                                            <div class="elementor-widget-wrap">
+                                                                <section class="elementor-section elementor-inner-section elementor-element elementor-element-78781da elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="78781da" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                                    <div class="elementor-container elementor-column-gap-no ">
+                                                                        <div class="elementor-row">
+                                                                            <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-91c177f" data-id="91c177f" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                                                <div class="elementor-column-wrap elementor-element-populated">
+                                                                                    <div class="elementor-widget-wrap">
+                                                                                        <div class="elementor-element elementor-element-fad8c6e elementor-widget elementor-widget-spacer" data-id="fad8c6e" data-element_type="widget" data-widget_type="spacer.default">
+                                                                                            <div class="elementor-widget-container">
+                                                                                                <div class="elementor-spacer">
+                                                                                                    <div class="elementor-spacer-inner"></div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+
+
+
+
+
+
+
+                                                                            <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-315b07b" data-id="315b07b" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                                                <div class="elementor-column-wrap elementor-element-populated">
+                                                                                    <div class="elementor-widget-wrap">
+                                                                                        <div class="elementor-element elementor-element-9c8ea50 elementor-view-stacked elementor-position-left elementor-vertical-align-middle elementor-shape-circle elementor-widget elementor-widget-icon-box" data-id="9c8ea50" data-element_type="widget" data-widget_type="icon-box.default">
+                                                                                            <div class="elementor-widget-container">
+                                                                                                <div class="elementor-icon-box-wrapper">
+                                                                                                    <div class="elementor-icon-box-icon">
+                                                                                                        <!--<span class="elementor-icon elementor-animation-rotate"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-headphones"><path d="M3 18v-6a9 9 0 0 1 18 0v6"></path><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path></svg> </span>-->
+                                                                                                    </div>
+                                                                                                    <div class="elementor-icon-box-content">
+                                                                                                        <h4 class="elementor-icon-box-title"> <span>*Lorem, ipsum dolor sit amet consectetur adipisicing.*
+				
+																										</span></h4>
+
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </section>
+                                                                <section class="elementor-section elementor-inner-section elementor-element elementor-element-7162417 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7162417" data-element_type="section">
+                                                                    <div class="elementor-container elementor-column-gap-default ">
+                                                                        <div class="elementor-row">
+                                                                            <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-916631b" data-id="916631b" data-element_type="column">
+                                                                                <div class="elementor-column-wrap elementor-element-populated">
+                                                                                    <div class="elementor-widget-wrap">
+                                                                                        <div class="elementor-element elementor-element-3086a1a footer-logo elementor-widget elementor-widget-image " data-id="3086a1a" data-element_type="widget" data-widget_type="image.default">
+                                                                                            <div class="elementor-widget-container">
+                                                                                                <div class="elementor-image ftr-logo">
+                                                                                                    <img width="444" height="140" src="assets/img/logo-light.png" class="attachment-full size-full" alt="logo" srcset="assets/img/logo-light.png 444w, assets/img/logo-light.png 300w" sizes="(max-width: 444px) 100vw, 444px" />
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-d24656e" data-id="d24656e" data-element_type="column">
+                                                                                <div class="elementor-column-wrap elementor-element-populated">
+                                                                                    <div class="elementor-widget-wrap">
+                                                                                        <div class="elementor-element elementor-element-76387f2 elementor-widget__width-auto elementor-widget elementor-widget-text-editor" data-id="76387f2" data-element_type="widget" data-widget_type="text-editor.default">
+                                                                                            <div class="elementor-widget-container">
+                                                                                                <div class="elementor-text-editor elementor-clearfix">
+                                                                                                    <!--<p>We are social</p>-->
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="elementor-element elementor-element-be4ce03 e-grid-align-left color-white elementor-widget__width-auto elementor-shape-rounded elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="be4ce03" data-element_type="widget" data-widget_type="social-icons.default">
+                                                                                            <div class="elementor-widget-container">
+                                                                                                <div class="elementor-social-icons-wrapper elementor-grid"> <span class="elementor-grid-item"> <a class="twt elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-animation-pulse elementor-repeater-item-c3e6bb6" href="https://twitter.com/dogz_my" target="_blank"> <span class="elementor-screen-only">Twitter</span>
+                                                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter">
+																				<path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+																									</svg>
+                                                                                                    </a>
+                                                                                                    </span> <span class="elementor-grid-item"> <a class="fb elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-animation-pulse elementor-repeater-item-4a25478" href="https://www.facebook.com/Feed-My-Dog-101424698890393" target="_blank"> <span class="elementor-screen-only">Facebook</span>
+                                                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook">
+																										<path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+																									</svg>
+                                                                                                    </a>
+                                                                                                    </span>
+                                                                                                    <span class="elementor-grid-item"> <a class="insta elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-animation-pulse elementor-repeater-item-cc697d3" href="https://www.instagram.com/feedmydogz/" target="_blank"> <span class="elementor-screen-only">Instagram</span>
+                                                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram">
+																										<rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+																										<path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+																										<line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+																									</svg>
+                                                                                                    </a>
+                                                                                                    </span>
+
+
+                                                                                                    <span class="elementor-grid-item"> <a class="ytb elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-animation-pulse elementor-repeater-item-cc697d3" href="https://www.youtube.com/channel/UCr1x8cn5w2i1bpUve8-zqQQ" target="_blank"> <span class="elementor-screen-only">Youtube</span>
+
+                                                                                                    <svg viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet" width="32" height="22">
+          <path d="M422.6 193.6c-5.3-45.3-23.3-51.6-59-54 -50.8-3.5-164.3-3.5-215.1 0 -35.7 2.4-53.7 8.7-59 54 -4 33.6-4 91.1 0 124.8 5.3 45.3 23.3 51.6 59 54 50.9 3.5 164.3 3.5 215.1 0 35.7-2.4 53.7-8.7 59-54C426.6 284.8 426.6 227.3 422.6 193.6zM222.2 303.4v-94.6l90.7 47.3L222.2 303.4z"></path>
+        </svg> </a>
+                                                                                                    </span>
+
+
+                                                                                                    <span class="elementor-grid-item"> <a class="ytb elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-animation-pulse elementor-repeater-item-cc697d3" href="https://www.youtube.com/channel/UCr1x8cn5w2i1bpUve8-zqQQ" target="_blank"> <span class="elementor-screen-only">Pin</span>
+
+                                                                                                    <svg viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet" width="32" height="32">
+          <path d="M266.6 76.5c-100.2 0-150.7 71.8-150.7 131.7 0 36.3 13.7 68.5 43.2 80.6 4.8 2 9.2 0.1 10.6-5.3 1-3.7 3.3-13 4.3-16.9 1.4-5.3 0.9-7.1-3-11.8 -8.5-10-13.9-23-13.9-41.3 0-53.3 39.9-101 103.8-101 56.6 0 87.7 34.6 87.7 80.8 0 60.8-26.9 112.1-66.8 112.1 -22.1 0-38.6-18.2-33.3-40.6 6.3-26.7 18.6-55.5 18.6-74.8 0-17.3-9.3-31.7-28.4-31.7 -22.5 0-40.7 23.3-40.7 54.6 0 19.9 6.7 33.4 6.7 33.4s-23.1 97.8-27.1 114.9c-8.1 34.1-1.2 75.9-0.6 80.1 0.3 2.5 3.6 3.1 5 1.2 2.1-2.7 28.9-35.9 38.1-69 2.6-9.4 14.8-58 14.8-58 7.3 14 28.7 26.3 51.5 26.3 67.8 0 113.8-61.8 113.8-144.5C400.1 134.7 347.1 76.5 266.6 76.5z"></path>
+        </svg> </a>
+                                                                                                    </span>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </section>
+
+                                                                <div class="elementor-element elementor-element-957bab0 elementor-widget elementor-widget-spacer" data-id="957bab0" data-element_type="widget" data-widget_type="spacer.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <div class="elementor-spacer">
+                                                                            <div class="elementor-spacer-inner"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <section class="elementor-section elementor-top-section elementor-element elementor-element-0138e9b elementor-section-stretched elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0138e9b"
+                                            data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+                                            <div class="elementor-container elementor-column-gap-no ">
+                                                <div class="elementor-row">
+                                                    <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-269bcbd" data-id="269bcbd" data-element_type="column">
+                                                        <div class="elementor-column-wrap elementor-element-populated">
+                                                            <div class="elementor-widget-wrap">
+                                                                <div class="elementor-element elementor-element-27c0744 animated-slow elementor-invisible elementor-widget elementor-widget-image" data-id="27c0744" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;shake&quot;}" data-widget_type="image.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <div class="elementor-image">
+                                                                            <img width="225" height="190" src="assets/img/footer_hero.png" class="elementor-animation-wobble-horizontal attachment-full size-full" alt="footer hero" />
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-9c76c77" data-id="9c76c77" data-element_type="column">
+                                                        <div class="elementor-column-wrap elementor-element-populated">
+                                                            <div class="elementor-widget-wrap">
+                                                                <div class="elementor-element elementor-element-1fff291 elementor-widget elementor-widget-text-editor" data-id="1fff291" data-element_type="widget" data-widget_type="text-editor.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <div class="elementor-text-editor elementor-clearfix">Copyright © 2021 <a class="color-tertiary" href="index.html">ansariguddu</a> All Rights Reserved</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-b155a41" data-id="b155a41" data-element_type="column">
+                                                        <div class="elementor-column-wrap elementor-element-populated">
+                                                            <div class="elementor-widget-wrap">
+                                                                <div class="elementor-element elementor-element-4c877ed elementor-widget elementor-widget-text-editor" data-id="4c877ed" data-element_type="widget" data-widget_type="text-editor.default">
+                                                                    <div class="elementor-widget-container">
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <a href="#" class="scroll-top"><i class="zmdi zmdi-long-arrow-up"></i></a>
+    </div>
+    <script>
+        jQuery(document).ready(function() {
+            jQuery("#submit").click(function() {
+                // alert(jQuery('input[name=name]').val());
+
+                if (jQuery('input[name=name]').val() == '') {
+                    alert('Please enter name');
+                    return false;
+                }
+
+
+                var email = jQuery('input[name=email]').val();
+                if (email == '') {
+                    alert('Please enter email');
+                    return false;
+                }
+                var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+                if (!email.match(mailformat)) {
+                    alert("inValid email address!");
+                    //document.form1.text1.focus();
+                    return false;
+
+                }
+
+
+                var mobile = jQuery('input[name=mobile]').val();
+                if (mobile == '') {
+                    alert('Please enter mobile');
+                    return false;
+                }
+
+
+
+
+                jQuery.ajax({
+                    type: "POST", //
+                    url: "action.php",
+                    data: {
+                        'name': jQuery('input[name=name]').val(),
+                        'email': jQuery('input[name=email]').val(),
+                        'mobile': jQuery('input[name=mobile]').val(),
+                        'message': jQuery('textarea[name=message]').val()
+                    },
+                    success: function(msg) {
+                        // alert("ok");
+                        jQuery('#donte').modal('hide');
+                        jQuery('#thankyou').modal('show');
+                    },
+                    error: function() {
+                        alert("Something went wrong!");
+                    }
+                });
+
+
+            });
+        });
+    </script>
+    <!-- Head JS Start -->
+    <script defer type='text/javascript' src='assets/js/bootstrap.min.js' id='bootstrap-js'></script>
+    <script defer type='text/javascript' src='assets/js/magnific-popup.min.js' id='magnific-popup-js'></script>
+    <script defer type='text/javascript' src='assets/js/wow.min.js' id='wow-js'></script>
+    <script defer type='text/javascript' src='assets/js/pethund-main.min.js' id='pethund-main-js'></script>
+    <script defer type='text/javascript' src='assets/js/pethund-woocommerce.min.js' id='pethund-woocommerce-js'></script>
+    <script type='text/javascript' src='assets/js/imagesloaded.min.js' id='imagesloaded-js'></script>
+    <script type='text/javascript' src='assets/js/isotope.pkgd.min.js' id='isotope-js'></script>
+    <script type='text/javascript' src='assets/js/cms-post-grid-widget.js' id='cms-post-grid-widget-js-js'></script>
+    <script type='text/javascript' src='assets/js/cms-accordion-widget.js' id='cms-accordion-widget-js-js'></script>
+    <script type='text/javascript' src='assets/js/slick.min.js' id='jquery-slick-js'></script>
+    <script type='text/javascript' src='assets/js/cms-item-carousel.js' id='cms-item-carousel-js-js'></script>
+    <script type='text/javascript' src='assets/js/webpack.runtime.min.js' id='elementor-webpack-runtime-js'></script>
+    <script type='text/javascript' src='assets/js/frontend-modules.min.js' id='elementor-frontend-modules-js'></script>
+    <script type='text/javascript' src='assets/js/waypoints.min.js' id='elementor-waypoints-js'></script>
+    <script type='text/javascript' id='elementor-frontend-js-before'>
+        var elementorFrontendConfig = {
+            "environmentMode": {
+                "edit": false,
+                "wpPreview": false,
+                "isScriptDebug": false
+            },
+            "i18n": {
+                "shareOnFacebook": "Share on Facebook",
+                "shareOnTwitter": "Share on Twitter",
+                "pinIt": "Pin it",
+                "download": "Download",
+                "downloadImage": "Download image",
+                "fullscreen": "Fullscreen",
+                "zoom": "Zoom",
+                "share": "Share",
+                "playVideo": "Play Video",
+                "previous": "Previous",
+                "next": "Next",
+                "close": "Close"
+            },
+            "is_rtl": false,
+            "breakpoints": {
+                "xs": 0,
+                "sm": 480,
+                "md": 768,
+                "lg": 1025,
+                "xl": 1440,
+                "xxl": 1600
+            },
+            "responsive": {
+                "breakpoints": {
+                    "mobile": {
+                        "label": "Mobile",
+                        "value": 767,
+                        "direction": "max",
+                        "is_enabled": true,
+                        "default_value": 767
+                    },
+                    "mobile_extra": {
+                        "label": "Mobile Extra",
+                        "value": 880,
+                        "direction": "max",
+                        "is_enabled": false,
+                        "default_value": 880
+                    },
+                    "tablet": {
+                        "label": "Tablet",
+                        "value": 1024,
+                        "direction": "max",
+                        "is_enabled": true,
+                        "default_value": 1024
+                    },
+                    "tablet_extra": {
+                        "label": "Tablet Extra",
+                        "value": 1365,
+                        "direction": "max",
+                        "is_enabled": false,
+                        "default_value": 1365
+                    },
+                    "laptop": {
+                        "label": "Laptop",
+                        "value": 1620,
+                        "direction": "max",
+                        "is_enabled": false,
+                        "default_value": 1620
+                    },
+                    "widescreen": {
+                        "label": "Widescreen",
+                        "value": 2400,
+                        "direction": "min",
+                        "is_enabled": false,
+                        "default_value": 2400
+                    }
+                }
+            },
+            "version": "3.3.1",
+            "is_static": false,
+            "experimentalFeatures": {
+                "e_import_export": true,
+                "landing-pages": true,
+                "elements-color-picker": true,
+                "admin-top-bar": true
+            },
+            "urls": {
+                "assets": "https:\/\/demo.7iquid.com\/pethund\/wp-content\/plugins\/elementor\/assets\/"
+            },
+            "settings": {
+                "page": [],
+                "editorPreferences": []
+            },
+            "kit": {
+                "global_image_lightbox": "yes",
+                "active_breakpoints": ["viewport_mobile", "viewport_tablet"],
+                "lightbox_enable_counter": "yes",
+                "lightbox_enable_fullscreen": "yes",
+                "lightbox_enable_zoom": "yes",
+                "lightbox_enable_share": "yes",
+                "lightbox_title_src": "title",
+                "lightbox_description_src": "description"
+            },
+            "post": {
+                "id": 22,
+                "title": "Pethund%20%E2%80%93%20Animals%20Shop%20%26%20Veterinary%20WordPress%20Theme",
+                "excerpt": "",
+                "featuredImage": false
+            }
+        };
+    </script>
+    <script type='text/javascript' src='assets/js/frontend.min.js' id='elementor-frontend-js'></script>
+
+
+
+
+
+    <script type='text/javascript' src='assets/js/cms-post-carousel-widget.js' id='cms-post-carousel-widget-js-js'></script>
+
+
+
+
+    <!-- Head JS End -->
+    <script src="email.html"></script>
+
+
+</body>
+
+
+</html>
